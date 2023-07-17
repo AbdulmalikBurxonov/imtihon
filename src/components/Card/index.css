@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header input {
+  outline: none;
+}
+
+.row-col {
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px 0 rgba(142, 140, 140, 0.26);
+}
+.row-col .img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.row-col .img img {
+  width: 240px !important;
+  border-radius: 10px;
+}
+
+.dumalo {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(50, 107, 75);
+  border-radius: 50%;
+}
+
+.trueFalse {
+  background-color: rgba(0, 128, 0, 0.388);
+  color: green;
+  font-weight: 500;
+  width: 100px;
+  border-radius: 6px;
+}
+
+.falseTrue {
+  background-color: rgba(95, 22, 2, 0.388);
+  color: rgb(128, 0, 0);
+  font-weight: 500;
+  width: 100px;
+  border-radius: 6px;
+}
+
+.dumaloo {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(176, 27, 25);
+  border-radius: 50%;
+}
